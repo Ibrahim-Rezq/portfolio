@@ -1,34 +1,90 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Portfolio
 
-First, run the development server:
+A personal portfolio website built with **Next.js** and **TypeScript**.  
+This project was created as a learning exercise to practice building a modern web application with React framework Next.js, TypeScript type safety, and deployment with Vercel.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+***
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌐 Live Demo
+[View the live site](https://game-dev-rose.vercel.app)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+***
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 🖼️ Preview
+![Project Preview](./portfolio.png)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 🎯 Purpose
+This project was developed to practice:  
+- Building a dynamic React app using Next.js  
+- Using TypeScript to enhance code quality  
+- Responsive UI design with CSS modules  
+- Deploying web apps on Vercel  
 
-## Learn More
+The portfolio showcases my projects and skills while serving as an online professional profile.
 
-To learn more about Next.js, take a look at the following resources:
+***
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 💡 Learning Takeaways
+Through this project, I learned to:  
+- Configure Next.js features like routing and API routes  
+- Implement TypeScript for better development experience  
+- Use CSS Modules for scoped styling  
+- Optimize images and assets for web performance  
+- Deploy Next.js apps seamlessly on Vercel  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+***
 
-## Deploy on Vercel
+## 🧩 Technologies Used
+- **Next.js**  
+- **TypeScript**  
+- **React**  
+- **CSS Modules**  
+- **Vercel (hosting)**  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+***
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🚀 Getting Started
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/Ibrahim-Rezq/portfolio.git
+   ```
+
+2. Install dependencies:  
+   ```bash
+   npm install
+   # or
+   yarn
+   ```
+
+3. Run the development server:  
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) to see the result.
+
+***
+
+## ⚙️ Customization
+
+Feel free to modify this portfolio:  
+* Update `pages/index.tsx` to add or change projects  
+* Customize styling in CSS Modules under `styles/`  
+* Add new API routes in `pages/api` if needed  
+* Change assets like images and icons in the `public/` folder  
+
+***
+
+## ⚖️ License
+
+This project is shared under the **MIT License** — you are free to use, modify, and distribute it for personal or commercial projects.
+
+***
+
+## 👨‍💻 Author
+
+Created by [Ibrahim Rezq](https://github.com/Ibrahim-Rezq) as part of my web development learning journey.
