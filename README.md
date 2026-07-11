@@ -1,90 +1,26 @@
-
 # Portfolio
 
-A personal portfolio website built with **Next.js** and **TypeScript**.  
-This project was created as a learning exercise to practice building a modern web application with React framework Next.js, TypeScript type safety, and deployment with Vercel.
+My first real portfolio site, built in 2022 while learning Next.js and TypeScript. The current one lives in [next-portfolio-updated](https://github.com/Ibrahim-Rezq/next-portfolio-updated). This repo stays up as a record of where I started.
 
-***
+![Project preview](./portfolio.png)
 
-## 🌐 Live Demo
-[View the live site](https://game-dev-rose.vercel.app)
+The old deployment is gone. The React version aged out of what Vercel supports, so local is the only way to run it now. That's fine for what this repo is.
 
-***
+## What I was practicing
 
-## 🖼️ Preview
-![Project Preview](./portfolio.png)
+Routing and API routes in Next.js, TypeScript instead of plain JavaScript, scoped styling with CSS Modules, and getting a deploy to work on Vercel for the first time.
 
-## 🎯 Purpose
-This project was developed to practice:  
-- Building a dynamic React app using Next.js  
-- Using TypeScript to enhance code quality  
-- Responsive UI design with CSS modules  
-- Deploying web apps on Vercel  
+## Running it
 
-The portfolio showcases my projects and skills while serving as an online professional profile.
+```bash
+git clone https://github.com/Ibrahim-Rezq/portfolio.git
+cd portfolio
+npm install
+npm run dev
+```
 
-***
+Open [http://localhost:3000](http://localhost:3000).
 
-## 💡 Learning Takeaways
-Through this project, I learned to:  
-- Configure Next.js features like routing and API routes  
-- Implement TypeScript for better development experience  
-- Use CSS Modules for scoped styling  
-- Optimize images and assets for web performance  
-- Deploy Next.js apps seamlessly on Vercel  
+## Stack
 
-***
-
-## 🧩 Technologies Used
-- **Next.js**  
-- **TypeScript**  
-- **React**  
-- **CSS Modules**  
-- **Vercel (hosting)**  
-
-***
-
-## 🚀 Getting Started
-
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/Ibrahim-Rezq/portfolio.git
-   ```
-
-2. Install dependencies:  
-   ```bash
-   npm install
-   # or
-   yarn
-   ```
-
-3. Run the development server:  
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   ```
-
-4. Open [http://localhost:3000](http://localhost:3000) to see the result.
-
-***
-
-## ⚙️ Customization
-
-Feel free to modify this portfolio:  
-* Update `pages/index.tsx` to add or change projects  
-* Customize styling in CSS Modules under `styles/`  
-* Add new API routes in `pages/api` if needed  
-* Change assets like images and icons in the `public/` folder  
-
-***
-
-## ⚖️ License
-
-This project is shared under the **MIT License** — you are free to use, modify, and distribute it for personal or commercial projects.
-
-***
-
-## 👨‍💻 Author
-
-Created by [Ibrahim Rezq](https://github.com/Ibrahim-Rezq) as part of my web development learning journey.
+Next.js, TypeScript, React, CSS Modules.
